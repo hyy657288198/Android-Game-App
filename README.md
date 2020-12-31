@@ -1,6 +1,7 @@
-# Markdown
+# Android Game App
 
-## setUp: 1. We found that NEXUS 5X is the best performance virtual devise for our project.
+## setUp: 
+          1. We found that NEXUS 5X is the best performance virtual devise for our project.
           2. In build.gradle file, we put Mockito in for testing purposes.
                 The following code is what we put in the build.gradle file.
                 repositories { jcenter() }
