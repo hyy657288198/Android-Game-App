@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">0630Game</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="mine_game_setting">Mine Game Setting</string>
+    <string name="confirm_and_play">Confirm and play</string>
+    <string name="game_center">Game Center</string>
+    <string name="mine">Mine</string>
+    <string name="quit">Quit</string>
+    <string name="victoury">VICTOURY !</string>
+    <string name="no_data">no data</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="see_scoreboard">See Scoreboard</string>
+    <string name="play_again">Play Again!</string>
+    <string name="finish">FINISH</string>
+    <string name="victory">Victory!</string>
+</resources>

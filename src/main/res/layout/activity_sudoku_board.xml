@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <fall2018.csc2017.GameCenter.SudokuGestureDetectGridView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/sudokugrid"
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            android:cacheColorHint="@color/colorPrimaryDark"
+            android:requiresFadingEdge="none"
+            tools:context="fall2018.csc2017.GameCenter.SudokuBoardActivity">
+
+        </fall2018.csc2017.GameCenter.SudokuGestureDetectGridView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="35dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/nine"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="35dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/eight"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/seven"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/six"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/five"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/four"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        android:layout_toStartOf="@+id/three"
+        android:layout_toEndOf="@+id/one"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/six"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-42dp"
+        android:layout_marginBottom="0dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/eraserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="0dp"
+        android:text="Eraser" />
+
+    <Button
+        android:id="@+id/sudokuQuitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="0dp"
+        android:text="Quit" />
+
+    <Button
+        android:id="@+id/sudokuUndoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/sudokuQuitButton"
+        android:text="undo" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="181dp"
+        android:background="@color/colorPrimaryDark" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="370dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="560dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="560dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimaryDark" />
+
+
+
+</RelativeLayout>

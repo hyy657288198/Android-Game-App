@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fall2018.csc2017.GameCenter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".StartingActivity"
+            android:exported="true" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".YouWinActivity" />
+        <activity android:name=".GameCenterActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity android:name=".SudokuBoardActivity" />
+        <activity android:name=".MineSettingActivity" />
+        <activity android:name=".MineGameActivity" />
+        <activity android:name=".ChooseGameScoreActivity" />
+        <activity android:name=".SudokuSettingActivity" />
+        <activity android:name=".DetailScoreBoardActivity" />
+        <activity android:name=".PersonalScoreboardActivity"></activity>
+    </application>
+
+</manifest>

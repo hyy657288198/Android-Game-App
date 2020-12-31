@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc2017.GameCenter.StartingActivity">
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="Welcome to Our Game!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="143dp"
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/LoadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GameText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="124dp"
+        android:text="Continue Game" />
+
+    <Button
+        android:id="@+id/scoreButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="33dp"
+        android:text="Scoreboard" />
+
+    <Button
+        android:id="@+id/LogoutButton"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toEndOf="@+id/profileButton"
+        android:text="Log out" />
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="38dp"
+        android:text="profile" />
+
+    <Button
+        android:id="@+id/MyScore"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/GameText"
+        android:layout_alignTop="@+id/scoreButton"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-1dp"
+        android:text="My score" />
+
+    <Button
+        android:id="@+id/gamecenterbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="379dp"
+        android:text="back to gamecenter" />
+
+</RelativeLayout>
